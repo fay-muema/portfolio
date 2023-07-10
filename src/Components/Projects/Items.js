@@ -22,7 +22,7 @@ const Items = () => {
         title ="Crop Recommendation System" 
         link = "https://crop-recommendation-system-fay-muema.vercel.app/"
         source = "https://github.com/fay-muema/Crop-recommendation-system"
-        paragraph = "This is a responsive full stack website. Developed to recommend Kenyan farmers the best crops to grow based on their farm nutrients and Climate. Uses Flask to fetch the World map API"
+        paragraph = "This is a responsive full stack website. Developed to recommend Kenyan farmers the best crops to grow based on their farm nutrients and Climate. Uses Flask to fetch the World map API. The project will not predict since I have not deployed the backend yet!! But it works😊"
         language = "REACT"
         tech = "PYTHON"
         />
@@ -44,7 +44,7 @@ img= {snap}
         title ="Landing Page" 
         link = "https://dropdown-challenge.netlify.app/"
         source = "https://github.com/fay-muema/dropdown-navigation"
-        paragraph = "This is a responsive landing page. It doesn't do alot is just a landing page done as challenge from frontend mentor."
+        paragraph = "This is a responsive landing page. It doesn't do alot is just a landing page done as challenge from frontend mentor. The buttons and navigation Bar does not work since it was just a challenge and that is what was supposed to be done. Afterall I expanded my Tailwind CSS skills here!!😃"
         language = "HTML"
         tech = "TAILWIND CSS"
         />
@@ -56,7 +56,7 @@ img= {beauty}
         title ="Landing Page " 
         link = "https://beauty-landingpage.netlify.app/"
         source = "https://github.com/fay-muema/dropdown-navigation"
-        paragraph = "This is a responsive landing page. It is a userInterface design for e-commerce beauty shop. "
+        paragraph = "This is a responsive landing page. It is a userInterface design for e-commerce beauty shop. This I can say is my first project when I started coding!😎. It wasn't easy I wanted to expand my skills here for HTML, CSS and Vanilla JS. The reason why the navigation bar and buttons doesn't work is because I had purposed for it to be a Landing page Design."
         language = "HTML/ UI/UX"
         tech = "Vanilla CSS"
         />
