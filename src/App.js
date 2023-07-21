@@ -7,16 +7,10 @@ import Items from './Components/Projects/Items';
 function App() {
   return (
     <div className="App">
-    
-
-     
         <Navbar/>
-        <Home/>
-       <About/>
-     <Items/>
-      
-      
-
+        <Home id="home"/>
+       <About id="about"/>
+     <Items id="item"/>
     </div>
   );
 }

@@ -4,9 +4,9 @@ import React from 'react'
 import fay from '../images/fay.png';
 import './styles.css';
 
-const About = () => {
+const About = ({id}) => {
   return (
-    <Box>
+    <Box id={id} >
     <Box sx={{color: "white", display:{md: "flex"}}} className="about-container" >
         <Box className="about-box1" sx={{width:{md: "60%"}, ml:{md:"50px"}, maxHeight:"100%", overflow:"auto", m: "1em"}}>
         <Typography variant="h6" align='center'>Who am I?</Typography>

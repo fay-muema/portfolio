@@ -7,10 +7,10 @@ import React from 'react'
 import {useStyles} from './styles'
 import GridItem from './GridItem'
 
-const Items = () => {
+const Items = ({id}) => {
     const classes = useStyles();
   return (
-    <Box className={classes.box}>
+    <Box className={classes.box} id={id}>
       <Badge variant="dot" color="warning">
       <Typography variant="h4" sx={{textDecoration:"underline", margin:"20px", color: "red", fontFamily:"Roboto"}}>MY WORK</Typography>
       </Badge>

@@ -8,9 +8,9 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
 import './styles.css'
 
-const Home = () => {
+const Home = ({id}) => {
   return (
-    <Box sx={{m:2, display: {md: 'flex', xs:'block'}}} className="container">
+    <Box sx={{m:2, display: {md: 'flex', xs:'block'}}} className="container" id={id}>
         <Box>
         <img src={about} alt="fay pic" className='boxImage'/>
         </Box>
