@@ -35,7 +35,7 @@ const Home = ({id}) => {
             </Stack>
  
         <h1>My name is Faith Muema</h1>
-        <p>I'm a front-end Developer based in Nairobi, Kenya</p>
+        <p>I'm a UI/UX Designer based in Nairobi, Kenya</p>
 
         </Box>
 

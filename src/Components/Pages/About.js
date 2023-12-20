@@ -1,5 +1,5 @@
 import { Box, Typography } from '@mui/material'
-import {react, js, python, clanguage, html, css, material, tailwind, jquery, mysql, mongo, express, flask, git} from "../images"
+import {react, js, html, css,git, figma, xd, vscode, photoshop,  sketch} from "../images"
 import React from 'react'
 import fay from '../images/fay.png';
 import './styles.css';
@@ -12,26 +12,23 @@ const About = ({id}) => {
         <Typography variant="h6" align='center'>Who am I?</Typography>
         <Typography variant="h3">HELLO!</Typography>
         <Typography variant="body1">
-        As a front-end developer, I am skilled  professional who is passionate about creating engaging and user-friendly web experiences.
-         I am well-versed in creating responsive, visually appealing, and accessible websites that meet the needs of clients and users alike. 
-         Overall, I am committed to continuous learning and growth, and I take pride in leveraging my skills to deliver innovative solutions that drive business success.
+        Passionate UI/UX Designer adept at crafting intuitive digital experiences that seamlessly blend
+         creativity with user-centric functionality. With a keen eye for detail and a commitment to user empathy,
+          I specialize in translating complex ideas into engaging, visually appealing designs. Proficient in leveraging 
+          design thinking and cutting-edge tools, I strive to elevate user satisfaction by delivering compelling and
+           intuitive interfaces that resonate with diverse audiences.
         </Typography>
-
+        <Typography variant="h5" sx={{textDecoration: "underline", marginTop: "12px"}}>Tools</Typography>
+        <img src={figma} alt="figma logo"/>
+        <img src={xd} alt="Adobe xd logo"/>
+        <img src={vscode} alt="VScode logo"/>
         <Typography variant="h5" sx={{textDecoration: "underline", marginTop: "12px"}}>Languages</Typography>
         <img src={js} alt="js-logo"/>
-        <img src={python} alt="python logo"/>
-        <img src={clanguage} alt="c-logo"/>
+
         <Typography variant="h5" sx={{textDecoration: "underline", marginTop: "12px"}}>Technologies</Typography>
         <img src={react} alt="react-logo"/>
         <img src={html} alt="html-logo"/>
         <img src={css} alt="css-logo"/>
-        <img src={material} alt="material-ui logo"/>
-        <img src={tailwind} alt="tailwind-logo"/>
-        <img src={jquery} alt="jquery-logo"/>
-        <img src={mongo} alt='mongodb-logo'/>
-        <img src={mysql} alt='mysql-logo'/>
-        <img src={express} alt="expressjs-logo"/>
-        <img src={flask} alt='flask-logo'/>
         <img src={git} alt='git-logo'/>
 
         
