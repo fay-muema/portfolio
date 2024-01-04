@@ -33,7 +33,7 @@ const Navbar = () => {
                  }}}><Link href="#item" color="inherit" underline='hover'>Works </Link></ListItem>
                   <ListItem sx={{":hover":{
                   bgcolor: "red"
-                 }}}><Link href="https://drive.google.com/file/d/1b_aX1Zhz5ppPVxWfe07fhG--u1d_LpAd/view?usp=sharing" target ="_blank" color="inherit" underline='hover'>Resume</Link></ListItem>
+                 }}}><Link href="" target ="_blank" color="inherit" underline='hover'></Link></ListItem>
                 </List>
                 </Box>
             <Avatar src={avatar} alt='fay'></Avatar>
@@ -43,5 +43,6 @@ const Navbar = () => {
    
   )
 }
+// https://drive.google.com/file/d/1b_aX1Zhz5ppPVxWfe07fhG--u1d_LpAd/view?usp=sharing
 
 export default Navbar

@@ -14,9 +14,11 @@ const Items = ({id}) => {
         <Typography variant="h4" sx={{ textDecoration: "underline", margin: "20px", color: "red", fontFamily: "Roboto" }}>MY WORK</Typography>
       </Badge>
       <Typography variant="h5" sx={{ marginTop: "-30px", marginBottom: "20px", textDecoration:"underline", marginBottoms:"20px",color:"white" }}>Read me!!!</Typography>
-      <Typography variant="h6" sx={{ marginTop: "-30px", marginBottom: "20px", margin:"20px" }}>I've dedicated my time to mastering UI/UX,
-       resulting in the creation of these vibrant websites. While the project
-       section is a work in progress, I'm eager to receive your honest feedback. You can easily reach me via my Socials, located at the first page.</Typography>
+      <Typography variant="h6" sx={{ marginTop: "-30px", marginBottom: "20px", margin:"20px" }}>
+I've devoted significant time and effort to mastering UI/UX principles, which has led to the development of these vibrant websites. Although the project section continues 
+to evolve, I'm confident in my ability to bring your designs to life. 
+With my expertise and commitment to crafting engaging user experiences,
+ I'm poised to be the ideal choice to elevate your vision into reality.</Typography>
       <Grid container>
         <Grid item xs={12} md={4}>
           <GridItem
