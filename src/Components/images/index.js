@@ -8,3 +8,5 @@ export const xd = require("./xd.png");
 export const vscode = require("./vscode.png");
 export const photoshop = require("./photoshop.png");
 export const sketch = require("./sketch.png");
+export const mara = require("./mara.png")
+export const crop = require("./nifty.png")

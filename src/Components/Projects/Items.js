@@ -1,6 +1,7 @@
 import { Badge, Box, Grid, Typography} from '@mui/material'
-import crop from '../images/nifty.png'
+// import crop from '../images/nifty.png'
 import React from 'react'
+import { mara, crop } from '../images'
 import {useStyles} from './styles'
 import GridItem from './GridItem'
 import {Link} from 'react-router-dom'
@@ -29,17 +30,25 @@ const Items = ({id}) => {
             tools="Figma, FigJam, Canva"
           />
         </Grid>
-        {/* <Grid item xs={12} md={4}>
-          <GridItem
-            img={tru}
-            title="Tru-Elegance E-commerce"
-            link="https://true-elegance.vercel.app/"
-            source="https://github.com/fay-muema/e-commerce"
-            paragraph="This is a responsive e-commerce website. It uses commercejs API for fetching prices and images."
-            language="REACT"
-            tech="MATERIAL UI" />
-        </Grid>
+
+
+
+
+
         <Grid item xs={12} md={4}>
+          <GridItem
+            img={mara}
+            title="Mara Movers Web Design"
+            link="https://www.behance.net/gallery/188109855/Moving-Company-Web-design"
+            paragraph="Mara Movers is a revolutionary initiative aimed at simplifying and enhancing
+             the moving experience for individuals and families
+             relocating from one place to another. Our platform redefines the traditional moving process, 
+             offering a seamless, user-centric solution that prioritizes efficiency, convenience, and reliability"
+            tools="Figma, Sketch, Behance"
+             />
+        </Grid>
+
+        {/* <Grid item xs={12} md={4}>
           <GridItem
             img={snap}
             title="Landing Page"

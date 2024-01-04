@@ -33,7 +33,7 @@ const Navbar = () => {
                  }}}><Link href="#item" color="inherit" underline='hover'>Works </Link></ListItem>
                   <ListItem sx={{":hover":{
                   bgcolor: "red"
-                 }}}><Link href="#contact" color="inherit" underline='hover'>Contact</Link></ListItem>
+                 }}}><Link href="#contact" color="inherit" underline='hover'>Resume</Link></ListItem>
                 </List>
                 </Box>
             <Avatar src={avatar} alt='fay'></Avatar>
