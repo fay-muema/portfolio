@@ -16,11 +16,11 @@ const Home = ({id}) => {
         </Box>
         <Box sx={{display:'block',ml:{md: -2}, p:2}} className="box2">
             <Stack spacing={4} direction="row">
-              <Link href="https://www.facebook.com/profile.php?id=100008729359351" target="_blank">
+              {/* <Link href="https://www.facebook.com/profile.php?id=100008729359351" target="_blank">
             <Avatar sx={{bgcolor: 'blue'}} >
                 <FacebookIcon/>
             </Avatar>
-            </Link>
+            </Link> */}
             <Link href="https://twitter.com/Ms_Muema" target="_blank">
             <Avatar sx={{bgcolor: 'blue'}}><TwitterIcon/>
             </Avatar>
