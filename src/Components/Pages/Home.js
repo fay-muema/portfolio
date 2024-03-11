@@ -15,7 +15,7 @@ const Home = ({id}) => {
         <img src={about} alt="fay pic" className='boxImage'/>
         </Box>
         <Box sx={{display:'block',ml:{md: -2}, p:2}} className="box2">
-            {/* <Stack spacing={4} direction="row">
+            <Stack spacing={4} direction="row">
               <Link href="https://www.facebook.com/profile.php?id=100008729359351" target="_blank">
             <Avatar sx={{bgcolor: 'blue'}} >
                 <FacebookIcon/>
@@ -32,7 +32,7 @@ const Home = ({id}) => {
             <Link href="https://www.instagram.com/fayloverattor/" target="_blank">
             <Avatar sx={{bgcolor: 'blue'}}><InstagramIcon/></Avatar>
             </Link>
-            </Stack> */}
+            </Stack>
  
         <h1>My name is Faith Muema</h1>
         <p>I'm a UI/UX Designer based in Nairobi, Kenya</p>
